@@ -1,0 +1,25 @@
+{
+    "rabbit_version": "3.9",
+    "users": [
+        {
+            "name": "guest",
+            "password": "guest",
+            "hashing_algorithm": "rabbit_password_hashing_sha256",
+            "tags": "administrator"
+        }
+    ],
+    "vhosts": [
+        {
+          "name": "communication-host"
+        }
+    ],
+    "permissions": [
+        {
+          "user": "guest",
+          "vhost": "communication-host",
+          "configure": ".*",
+          "write": ".*",
+          "read": ".*"
+        }
+    ]
+}

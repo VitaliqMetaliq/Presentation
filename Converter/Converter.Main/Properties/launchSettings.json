@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Converter.Main": {
+      "commandName": "Project",
+      "dotnetRunMessages": true
+    }
+  }
+}
